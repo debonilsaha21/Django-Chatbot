@@ -27,13 +27,14 @@ It includes **user authentication**, persistent **chat history storage**, and a 
    ```bash
    git clone 
    cd django-chatbot
-2. python -m venv venv
-    source venv/bin/activate   # Linux/Mac
-    venv\Scripts\activate      # Windows
-3. pip install -r requirements.txt
-4. GROQ_API_KEY=your_api_key_here
-5. python manage.py migrate
-6. python manage.py runserver
+   python -m venv venv
+   source venv/bin/activate   # Linux/Mac
+   venv\Scripts\activate      # Windows
+   pip install -r requirements.txt
+2. GROQ_API_KEY=your_api_key_here
+   ```bash
+   python manage.py migrate
+   python manage.py runserver
 ## ▶️ Usage
   Visit http://127.0.0.1:8000
   Register/Login to your account
