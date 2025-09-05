@@ -25,7 +25,7 @@ It includes **user authentication**, persistent **chat history storage**, and a 
 ## 📦 Installation
 1. Clone the repository  
    ```bash
-   git clone 
+   git clone https://github.com/debonilsaha21/Django-Chatbot.git
    cd django-chatbot
    python -m venv venv
    source venv/bin/activate   # Linux/Mac
